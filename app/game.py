@@ -23,7 +23,7 @@ print("COMPUTER CHOICE:", c)
 #
 
 
-def determine_winner():
+def determine_winner(u,c):
     if u == "rock" and c == "rock":
         #print("It's a tie!")
         return None
